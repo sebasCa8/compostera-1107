@@ -1,0 +1,70 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f7;
+    color: #3a2c50;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #5b27ae;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* Subtítulo */
+#subtitulo {
+    font-style: italic;
+    font-size: 1.1rem;
+    background-color: #d5d8f5;
+    padding: 10px 15px;
+    border-left: 5px solid #2927ae;
+    margin-bottom: 30px;
+}
+
+/* Secciones */
+section, #integrantes, #justificacion, #componentes {
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+/* Títulos de sección */
+h2, h3, h4 {
+    color: #5216a0;
+    margin-bottom: 15px;
+}
+
+/* Lista de componentes */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Integrantes - párrafos */
+#integrantes p {
+    margin: 6px 0;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    #subtitulo {
+        font-size: 1rem;
+    }
+}
+
